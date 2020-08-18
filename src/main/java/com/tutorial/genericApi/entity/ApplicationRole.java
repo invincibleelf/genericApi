@@ -14,6 +14,9 @@ import lombok.Setter;
  */
 @Entity
 @Table(name = "roles")
+@Getter
+@Setter
+@NoArgsConstructor
 public class ApplicationRole extends BaseEntity {
 	
 	@Column(nullable = false)
