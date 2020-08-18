@@ -14,6 +14,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * @author invincibleelf
+ * 
+ * Generic Entity with id, created and updated timestamp
+ *
+ */
 @Getter
 @Setter
 @NoArgsConstructor

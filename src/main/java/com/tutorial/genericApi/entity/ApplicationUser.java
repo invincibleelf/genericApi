@@ -14,6 +14,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/**
+ * @author invincibleelf
+ *
+ */
 @Entity
 @Table(name = "users")
 @Getter
