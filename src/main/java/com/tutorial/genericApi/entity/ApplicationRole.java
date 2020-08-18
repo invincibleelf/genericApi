@@ -18,17 +18,5 @@ public class ApplicationRole extends BaseEntity {
 	
 	@Column(nullable = false)
 	private String role;
-	
-	public ApplicationRole() {
-		super();
-	}
-
-	public String getRole() {
-		return role;
-	}
-
-	public void setRole(String role) {
-		this.role = role;
-	}
 
 }

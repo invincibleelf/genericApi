@@ -1,5 +1,9 @@
 package com.tutorial.genericApi.dto;
 
+import javax.persistence.Id;
+
+import com.sun.istack.NotNull;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -14,6 +18,8 @@ import lombok.Setter;
 @NoArgsConstructor
 public class BaseDTO {
 	
+	@Id
+	@NotNull
 	private Long id;
 	
 	public BaseDTO (Long id) {

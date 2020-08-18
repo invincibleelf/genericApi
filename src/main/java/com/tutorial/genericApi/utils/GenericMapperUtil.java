@@ -47,5 +47,15 @@ public class GenericMapperUtil {
 	public <S, T> T mapModel(S source, Class<T> targetClass) {
 		return mapper.map(source, targetClass);
 	}
+	
+	/** Generic method to convert dto to entity for update operation
+	 * @param <S>
+	 * @param <T>
+	 * @param source
+	 * @param target
+	 */
+	public <S, T> void mapModel(S source, T target) {
+		mapper.map(source, target);
+	}
 
 }

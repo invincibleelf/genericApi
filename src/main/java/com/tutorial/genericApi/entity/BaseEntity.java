@@ -18,10 +18,10 @@ import lombok.Setter;
  * @author invincibleelf
  * 
  * Generic Entity with id, created and updated timestamp
+ * Only generate getter and these values won't be set manually
  *
  */
 @Getter
-@Setter
 @NoArgsConstructor
 @MappedSuperclass
 public class BaseEntity {
